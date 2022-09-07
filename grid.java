@@ -8,6 +8,9 @@ public class grid extends JFrame implements MouseListener {
         this.setSize(1000,1000);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.addMouseListener(this);
+        this.setLayout(null);
+        box b=new box();
+        this.add(b);
     }
 
 
