@@ -13,7 +13,6 @@ public class grid extends JFrame implements MouseListener {
         this.add(b);
     }
 
-
     @Override
     public void mouseClicked(MouseEvent mouseEvent) {
         System.out.println(mouseEvent);
